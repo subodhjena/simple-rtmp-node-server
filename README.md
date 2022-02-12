@@ -20,8 +20,6 @@ The server exposes port 19350. Any RTMP client can be used to connect to the ser
 
 To be noted that the server can accept two simultaneous connections at the same time, which can be configured by wither main|sub keyword in the URL
 
-## Testing
-
 OBS Studio can be used as a RTMP client and stream data to the server. A more detaied tutorial could be found [here](https://help.streamingvideoprovider.com/en/articles/1394733-how-to-live-stream-with-obs-open-broadcasting-software)
 
 ```bash
