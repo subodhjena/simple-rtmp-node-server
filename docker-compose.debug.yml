@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  rtmpnodeserver:
+    image: rtmpnodeserver
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 19350:19350
+      - 9229:9229
+    command: ["node", "--inspect=0.0.0.0:9229", "index.js"]

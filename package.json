@@ -1,0 +1,33 @@
+{
+  "name": "rtmp-node-server",
+  "version": "1.0.0",
+  "description": "Simple RTMP Node JS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subodhjena/simple-rtmp-node-server.git"
+  },
+  "keywords": [
+    "RTMP",
+    "NODE",
+    "MEDIA",
+    "SERVER"
+  ],
+  "author": "Subodh Jena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subodhjena/simple-rtmp-node-server/issues"
+  },
+  "homepage": "https://github.com/subodhjena/simple-rtmp-node-server#readme",
+  "dependencies": {
+    "@mediafish/rtmp-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
